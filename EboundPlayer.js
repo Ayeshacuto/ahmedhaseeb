@@ -1,7 +1,7 @@
 if (top.location && document.location != top.location) top.location = document.location;
 
-document.write("<iframe data-video-ads='true' id='google_top' name='google_top' style='display:none'></iframe>");
-document.write("<scr'+'ipt async src='//pagead2.googlesyndication.com/pagead/js/google_top.js'></scr'+'ipt>");
+//document.write("<iframe data-video-ads='true' id='google_top' name='google_top' style='display:none'></iframe>");
+//document.write("<scr'+'ipt async src='//pagead2.googlesyndication.com/pagead/js/google_top.js'></scr'+'ipt>");
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-25337038-1']);
@@ -27,12 +27,12 @@ document.write("<center><iframe name='eboundservices' width='640' height='360' s
 }
 else if (playersize==null)
 {
-document.write('<center><scr'+'ipt type="text/javascript" src="http://www.eboundservices.com/ads/468_60.js"></scr'+'ipt></center>');
+//document.write('<center><scr'+'ipt type="text/javascript" src="http://www.eboundservices.com/ads/468_60.js"></scr'+'ipt></center>');
 document.write("<center><iframe name='eboundservices' width='615' height='350' src="+var_scr+" frameborder='0' scrolling='no'></center></iframe>"); document.write('</br></br>');
 }
 else
 {
-document.write('<center><scr'+'ipt type="text/javascript" src="http://www.eboundservices.com/ads/468_60.js"></scr'+'ipt></center>');
+//document.write('<center><scr'+'ipt type="text/javascript" src="http://www.eboundservices.com/ads/468_60.js"></scr'+'ipt></center>');
 document.write("<center><iframe name='eboundservices' width="+params['width']+" height="+params['height']+" src="+var_scr+" frameborder='0' scrolling='no'></center></iframe>");
 document.write('</br></br>');
 }
@@ -51,4 +51,4 @@ function parseQuery ( query ) {
   }
   return Params;
 }
-document.write('<scr'+'ipt type="text/javascript" src="http://www.eboundservices.com/ads/extra.js"></scr'+'ipt>');
+//document.write('<scr'+'ipt type="text/javascript" src="http://www.eboundservices.com/ads/extra.js"></scr'+'ipt>');
